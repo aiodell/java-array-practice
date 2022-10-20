@@ -18,7 +18,7 @@ public class Main {
         names[2] = "Emily";
 
         // in order to display the elements in the array, we need to use Arrays.toString() method
-        System.out.println("Some names" + Arrays.toString(names));
+        System.out.println("Some names" + names);
 
         //===========[Option 2]===========//
 
@@ -52,5 +52,18 @@ public class Main {
             nums[i] +=1;
             System.out.print(nums[i] + ", ");
         }
+
+        //===========[Find the sum of an array]===========//
+        System.out.printf("%n");
+        System.out.printf("%nExtra practice with integers:%n");
+
+        // find the sum of an array
+        int sum = 0;
+        for(int i = 0; i <= nums.length-1; i++){
+           sum = sum + nums[i];
+        }
+
+        // we can print sum because it was initialized outside the loop
+        System.out.printf("The sum of the array is %d", sum);
     }
 }
