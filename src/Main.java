@@ -23,7 +23,7 @@ public class Main {
         //===========[Option 2]===========//
 
         // create the array with data inside curly brackets
-        String[] moreNames = new String[] {"Paul", "Fred", "Harold"};
+        String[] moreNames = {"Paul", "Fred", "Harold"};
 
         System.out.println("More names" + Arrays.toString(moreNames));
 
