@@ -1,4 +1,4 @@
-# Basic Java Array Sample Code </br> --------------------------------------------
+# Basic Java Array Sample Code
 
 ## Goals:
 
@@ -58,6 +58,6 @@ the integer is just showing the entire list of integer.
    1. if there is nothing in the index, it will place a 0 instead of null
 2. You can use the for loop to find the sum within the array
 
-## ------------------------
+##
 
 For extra practice, we can find the sum of the integers.
