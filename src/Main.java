@@ -45,10 +45,12 @@ public class Main {
 
         //===========[Increment through integers of an array]===========//
 
-        System.out.printf("%nExample of incrementing through an array of integers:%n");
+        System.out.printf("%nExample of incrementing through " +
+                "an array of integers increasing each element by one" +
+                ":%n");
         int[] nums = new int[]{1,5,7,8,3,4,0};
         for(int i = 0; i < nums.length; i++){
-            nums[i] +=1;
+            nums[i] += 1;
             System.out.print(nums[i] + ", ");
         }
     }
