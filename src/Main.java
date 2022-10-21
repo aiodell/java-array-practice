@@ -40,8 +40,7 @@ public class Main {
         // can be written as: i <= array.length -1 or i < array.length
         System.out.printf("%nPrint the array using a for loop%n");
         for(int i = 0; i <= moreNames.length -1; i++){
-            String name = moreNames[i];
-            System.out.println(name);
+            System.out.println(moreNames[i]);
         }
 
         //===========[Increment through integers of an array]===========//
