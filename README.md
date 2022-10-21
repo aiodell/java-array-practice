@@ -39,10 +39,18 @@ iterate through in the array. For this code, we are going to iterate and display
 
 <strong>For Loop</strong></br>
 The for loop contains more code than the for-each loop, but operates the same way.<br/>
-It is written as `for(int i; i <= array.length -1; i++){ code }`.  As with the for-each loop, the print statement<br/>
-needs to be inside of the loop or it will not be in scope.
+It is written as `for(int i; i <= array.length -1; i++){ code }`.
+It will result in the same thing.
 
-Important note:
+- The first statement will execute one time before the execution of the code block.
+
+- The second statement is the condition that determines if the loop ends or continues.
+
+- The third statement is executed every time after the code block. It will not execute once the condition is no longer true.
+  
+As with the for-each loop, the print statement needs to be inside of the loop or it will not be in scope.
+
+<strong>Important note:</strong>
 1. if you are using `<` or `>` to compare `i` and `array.length`, do not add `-1 `after` array.length`or will
    <br/> result in it not completely reading the array.
 2. if you are using `<=` or `>=` to compare `i` and `array.length`, ensure you are using `array.length -1` or will
